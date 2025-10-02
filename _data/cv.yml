@@ -11,9 +11,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: <a href="https://carrieres.cnrs.fr/en/identity-card/">CNRS </a>researcher
+      institution: <a href="https://mateis.insa-lyon.fr/en"> Matériaux Ingénierie et Science laboratory (MatéIS)</a>, Lyon, France
+      year: 2025 - present
     - title: Post-Doctoral Researcher
       institution: <a href="https://www.cinam.univ-mrs.fr/cinam/">Centre Interdisciplinaire de Nanoscience de Marseille</a>, Marseille, France
-      year: 2020 - present
+      year: 2020 - 2025
       description:
         - Development of novel <a href="/projects/qmml">hybrid <i>ab initio</i>-machine learning (QM/ML) method</a> enabling large scale simulations of extended defects with <i>ab initio</i> accuracy.
         - QM/ML study of interaction of point defects with dislocations and kinks in tungsten.
