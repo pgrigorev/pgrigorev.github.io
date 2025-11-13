@@ -1,3 +1,60 @@
+@article{MACE-MP0,
+abstract = {Atomistic simulations of matter, especially those that leverage first-principles (ab-initio) electronic structure theory, provide a microscopic view of the world, underpinning much of our understanding of chemistry and materials science. Over the last decade or so, machine-learned force fields have transformed atomistic modeling by enabling simulations of ab-initio quality over unprecedented time and length scales. However, early machine-learning (ML) force fields have largely been limited by (i) the substantial computational and human effort required to develop and validate potentials for each particular system of interest and (ii) a general lack of transferability from one chemical system to the next. Here, we show that it is possible to create a general-purpose atomistic ML model, trained on a public dataset of moderate size, that is capable of running stable molecular dynamics for a wide range of molecules and materials. We demonstrate the power of the MACE-MP-0 model—and its qualitative and at times quantitative accuracy—on a diverse set of problems in the physical sciences, including properties of solids, liquids, gases, chemical reactions, interfaces, and even the dynamics of a small protein. The model can be applied out of the box as a starting or 'foundation' model for any atomistic system of interest and, when desired, can be fine-tuned on just a handful of application-specific data points to reach ab-initio accuracy. Establishing that a stable force-field model can cover almost all materials changes atomistic modeling in a fundamental way: experienced users obtain reliable results much faster, and beginners face a lower barrier to entry. Foundation models thus represent a step toward democratizing the revolution in atomic-scale modeling that has been brought about by ML force fields.},
+author = {Batatia, Ilyes and Benner, Philipp and Chiang, Yuan and Elena, Alin M and Kov{\'{a}}cs, D{\'{a}}vid P and Riebesell, Janosh and Advincula, Xavier R and Asta, Mark and Avaylon, Matthew and Baldwin, William J and Berger, Fabian and Bernstein, Noam and Bhowmik, Arghya and Bigi, Filippo and Blau, Samuel M and Cărare, Vlad and Ceriotti, Michele and Chong, Sanggyu and Darby, James P and De, Sandip and {Della Pia}, Flaviano and Deringer, Volker L and Elijo{\v{s}}ius, Rokas and El-Machachi, Zakariya and Fako, Edvin and Falcioni, Fabio and Ferrari, Andrea C and Gardner, John L A and Gawkowski, Miko{\l}aj J and Genreith-Schriever, Annalena and George, Janine and Goodall, Rhys E A and Grandel, Jonas and Grey, Clare P and Grigorev, Petr and Han, Shuang and Handley, Will and Heenen, Hendrik H and Hermansson, Kersti and Ho, Cheuk Hin and Hofmann, Stephan and Holm, Christian and Jaafar, Jad and Jakob, Konstantin S and Jung, Hyunwook and Kapil, Venkat and Kaplan, Aaron D and Karimitari, Nima and Kermode, James R and Kourtis, Panagiotis and Kroupa, Namu and Kullgren, Jolla and Kuner, Matthew C and Kuryla, Domantas and Liepuoniute, Guoda and Lin, Chen and Margraf, Johannes T and Magdău, Ioan-Bogdan and Michaelides, Angelos and Moore, J Harry and Naik, Aakash A and Niblett, Samuel P and Norwood, Sam Walton and O'Neill, Niamh and Ortner, Christoph and Persson, Kristin A and Reuter, Karsten and Rosen, Andrew S and Rosset, Louise A M and Schaaf, Lars L and Schran, Christoph and Shi, Benjamin X and Sivonxay, Eric and Stenczel, Tam{\'{a}}s K and Sutton, Christopher and Svahn, Viktor and Swinburne, Thomas D and Tilly, Jules and van der Oord, Cas and Vargas, Santiago and Varga-Umbrich, Eszter and Vegge, Tejs and Vondr{\'{a}}k, Martin and Wang, Yangshuai and Witt, William C and Wolf, Thomas and Zills, Fabian and Cs{\'{a}}nyi, G{\'{a}}bor},
+doi = {10.1063/5.0297006},
+issn = {0021-9606},
+journal = {The Journal of Chemical Physics},
+number = {18},
+pages = {184110},
+title = {{A foundation model for atomistic materials chemistry}},
+url = {https://doi.org/10.1063/5.0297006},
+html = {https://doi.org/10.1063/5.0297006},
+pdf = {https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0297006/20801246/184110_1_5.0297006.pdf},
+volume = {163},
+year = {2025},
+month = {Nov},
+}
+
+
+@article{Starikov2026,
+abstract = {This work is devoted to the development and comprehensive validation of a new interatomic potential for bcc and hcp refractory alloys based on the WMoNbTaZrTi system. The presented model allows the simulation of various structural transformations, as well as the behavior of crystal defects in several of the phases observed in this system. The classical form of the potential enables simulations of atomic systems comprising up to 108 atoms for durations longer than a million time steps using a routine computational setting. The wide applicability of the developed model is demonstrated by the example of studying phase transformations in TiNb alloys and the properties of defects in Laves phases.},
+author = {Starikov, Sergei and Grigorev, Petr and Lee, Sang-Hyeok and Xie, Zhuocheng and Olsson, P{\"{a}}r A T},
+issn = {0927-0256},
+journal = {Computational Materials Science},
+keywords = { Interatomic potential,Refractory metals},
+pages = {114369},
+month= {Jan},
+title = {{Angular-dependent interatomic potential for large-scale simulation of bcc and hcp multi-component refractory alloys}},
+doi = {10.1016/j.commatsci.2025.114369},
+url = {https://www.sciencedirect.com/science/article/pii/S0927025625007128},
+html = {https://www.sciencedirect.com/science/article/pii/S0927025625007128},
+volume = {262},
+year = {2026},
+pdf = {https://www.sciencedirect.com/science/article/pii/S0927025625007128/pdfft?md5=b34eed4da4aa0aba395a174373b15b13&pid=1-s2.0-S0927025625007128-main.pdf}
+}
+
+
+@Article{Maliyov2025,
+author={Maliyov, Ivan
+and Grigorev, Petr
+and Swinburne, Thomas D.},
+title={Exploring parameter dependence of atomic minima with implicit differentiation},
+journal={npj Computational Materials},
+year={2025},
+month={Jan},
+day={27},
+volume={11},
+number={1},
+pages={22},
+abstract={Interatomic potentials are essential to go beyond ab initio size limitations, but simulation results depend sensitively on potential parameters. Forward propagation of parameter variation is key for uncertainty quantification, whilst backpropagation has found application for emerging inverse problems such as fine-tuning or targeted design. Here, the implicit derivative of functions defined as a fixed point is used to Taylor-expand the energy and structure of atomic minima in potential parameters, evaluating terms via automatic differentiation, dense linear algebra or a sparse operator approach. The latter allows efficient forward and backpropagation through relaxed structures of arbitrarily large systems. The implicit expansion accurately predicts lattice distortion and defect formation energies and volumes with classical and machine-learning potentials, enabling high-dimensional uncertainty propagation without prohibitive overhead. We then show how the implicit derivative can be used to solve challenging inverse problems, minimizing an implicit loss to fine-tune potentials and stabilize solute-induced structural rearrangements at dislocations in tungsten.},
+issn={2057-3960},
+doi={10.1038/s41524-024-01506-0},
+url={https://doi.org/10.1038/s41524-024-01506-0},
+html={https://doi.org/10.1038/s41524-024-01506-0},
+pdf={https://www.nature.com/articles/s41524-024-01506-0.pdf}
+}
+
+
 @article{Starikov2024_diffusion,
 abbr={Phys. Rev.},
 author = {Starikov, Sergei and Grigorev, Petr and Drautz, Ralf and Divinski, Sergiy V},
@@ -522,43 +579,6 @@ cluster component of the secondaryemission spectrum. In this case, in practice t
  year = {2013},
  month = {mar},
  file = {/home/petr/Documents/literature/Grigorev2013.pdf}
-}
-
-﻿@Article{Maliyov2025,
-author={Maliyov, Ivan
-and Grigorev, Petr
-and Swinburne, Thomas D.},
-title={Exploring parameter dependence of atomic minima with implicit differentiation},
-journal={npj Computational Materials},
-year={2025},
-month={Jan},
-day={27},
-volume={11},
-number={1},
-pages={22},
-abstract={Interatomic potentials are essential to go beyond ab initio size limitations, but simulation results depend sensitively on potential parameters. Forward propagation of parameter variation is key for uncertainty quantification, whilst backpropagation has found application for emerging inverse problems such as fine-tuning or targeted design. Here, the implicit derivative of functions defined as a fixed point is used to Taylor-expand the energy and structure of atomic minima in potential parameters, evaluating terms via automatic differentiation, dense linear algebra or a sparse operator approach. The latter allows efficient forward and backpropagation through relaxed structures of arbitrarily large systems. The implicit expansion accurately predicts lattice distortion and defect formation energies and volumes with classical and machine-learning potentials, enabling high-dimensional uncertainty propagation without prohibitive overhead. We then show how the implicit derivative can be used to solve challenging inverse problems, minimizing an implicit loss to fine-tune potentials and stabilize solute-induced structural rearrangements at dislocations in tungsten.},
-issn={2057-3960},
-doi={10.1038/s41524-024-01506-0},
-url={https://doi.org/10.1038/s41524-024-01506-0},
-html={https://doi.org/10.1038/s41524-024-01506-0},
-pdf={https://www.nature.com/articles/s41524-024-01506-0.pdf}
-}
-
-@article{Starikov2026,
-abstract = {This work is devoted to the development and comprehensive validation of a new interatomic potential for bcc and hcp refractory alloys based on the WMoNbTaZrTi system. The presented model allows the simulation of various structural transformations, as well as the behavior of crystal defects in several of the phases observed in this system. The classical form of the potential enables simulations of atomic systems comprising up to 108 atoms for durations longer than a million time steps using a routine computational setting. The wide applicability of the developed model is demonstrated by the example of studying phase transformations in TiNb alloys and the properties of defects in Laves phases.},
-author = {Starikov, Sergei and Grigorev, Petr and Lee, Sang-Hyeok and Xie, Zhuocheng and Olsson, P{\"{a}}r A T},
-issn = {0927-0256},
-journal = {Computational Materials Science},
-keywords = { Interatomic potential,Refractory metals},
-pages = {114369},
-month= {Jan},
-title = {{Angular-dependent interatomic potential for large-scale simulation of bcc and hcp multi-component refractory alloys}},
-doi = {10.1016/j.commatsci.2025.114369},
-url = {https://www.sciencedirect.com/science/article/pii/S0927025625007128},
-html = {https://www.sciencedirect.com/science/article/pii/S0927025625007128},
-volume = {262},
-year = {2026},
-pdf = {https://www.sciencedirect.com/science/article/pii/S0927025625007128/pdfft?md5=b34eed4da4aa0aba395a174373b15b13&pid=1-s2.0-S0927025625007128-main.pdf}
 }
 
 
